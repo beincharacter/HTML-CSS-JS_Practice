@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet"></head>
+</head>
+<body>
+    <div class="main-container">
+        <div class="payment-box ">
+            <h1 class="heading">Payment</h1>
+            <p class="membership-text">Complete your pro membership</p>
+            <div class="payment-detail ">
+                <p class="amount">
+                    <span class="cr-sign"> $</span>
+                     899 <span class="cr"> USD</span></p>
+                <!-- <hr> <br> -->
+                <div class="order-details">
+                    <span><i class="green fa-solid fa-circle-check"></i> Messaging</span>
+                    <span><i class="green fa-solid fa-circle-check"></i> Analytics</span>
+                    <span><i class="green fa-solid fa-circle-check"></i> Support</span>
+                    <span><i class="green fa-solid fa-circle-check"></i> Discount</span>
+                    <span class="know-more">Know more</span>
+                </div>
+                <p class="payment-method">Pay with card</p>
+                <input type="text" placeholder="0000 0000 0000" class="card-number">
+                <input type="month" class="month">
+                
+
+                <input type="num" class="cvv" aria-placeholder="mm/yy" min="3" max="3" placeholder="CVV">
+                <button class="submit">Make payment</button>
+            </div>
+        </div>
+
+        <!-- remove the orders -->
+
+        <div class="remove-card none">
+            <p class="heading">Remove?</p>
+            <p class="message">Please confirm the changes, you can't redo this again</p>
+            <button class="confirm submit">Confirm</button>
+            <p class="back-msg center">Take me back</p>
+        </div>
+
+        <!-- sucess order msg  -->
+
+        <div class="success-msg none">
+            <div class="icon center"><i class="white fa-solid fa-circle-check fa-3x"></i></div>
+            <p class="message-sucess center">Success</p>
+            <p class="status center">Your payment was processed</p>
+        </div>
+
+        <!-- invoice -->
+
+        <div class="invoice none">
+            <div class="invoice-header pad-20-btm">
+                <b class="left ">Invoice</b>
+                <b class="small right">Download</b>
+            </div>
+            <div class="payment-details pad-20-btm">
+                <div style="padding-bottom: 10px;" class="membership-detail">
+                    <span class="light "> Pro membership</span>
+                    <p class="right"><b>$899</b></p>
+                </div>
+                <span style="margin-top: 20px;" class="fee pad-10-top">
+                    <span class="light"> Platform fee</span>
+                    <p class="right zero"><b class="zero">$10</b></p>
+                </span>
+            </div>
+            <div class="order-foot">
+                <span class="bold"> Total amount</span>
+                    <p class="right"><b>$909</b></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

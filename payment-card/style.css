@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.main-container {
+    height: 100vh;   
+    /* background-color: blueviolet;  */
+}
+
+
+.main-container {
+    width: 290px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(231, 225, 225);
+    /* border: 1px solid black; */
+    /* text-align: center; */
+
+}
+.center {
+    display: flex;
+    text-align: center;
+    padding: auto 0;
+    justify-content: center;
+} 
+.payment-box {
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 24px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.membership-text {
+    font-size: 11px;
+    color: rgb(105, 98, 98);
+    margin-bottom: 20px;
+}
+
+.cr-sign,
+.cr {
+    color: rgb(140, 135, 135);
+    font-size: small;
+}
+
+.amount {
+    font-size: 17px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(136, 134, 134);
+}
+
+.order-details {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.amount, .order-details {
+    background-color: rgb(241, 234, 226);
+}
+.green {
+    background-color: white;
+    color: rgb(7, 133, 7);
+}
+
+
+.order-details span {
+    font-size: 14px;
+    width: 50%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.order-details>.know-more {
+    font-weight: 700;
+}
+
+.payment-method {
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card-number {
+    width: 92%;
+    height: 40px;
+    border: 1px solid rgb(76, 73, 73);
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.month,
+.cvv {
+    width: 40%;
+    height: 40px;
+    border: none;
+    border: 1px solid rgb(216, 187, 187);
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.submit {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(47, 44, 196);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* remove */
+
+.none {
+    display: none;
+}
+
+body {
+    background-color: rgb(231, 225, 225);
+}
+.remove-card {
+    margin: 30vh 0;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+}
+.message {
+    padding-bottom: 15px;
+    color: rgb(116, 111, 104);
+}
+
+.confirm {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(182, 10, 7);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.back-msg {
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* success msg  */
+.white {
+    color: white;
+}
+
+.success-msg {
+    background-color: rgb(57,141,116);
+    border-radius: 15px;
+    margin-top: 30vh;
+    height: 200px;
+}
+
+.icon {
+    height: 50px;
+    padding: 40px 0 20px 0;
+}
+
+.message-sucess {
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+
+.status {
+    color: rgb(220, 206, 206);
+}
+
+/* invoice */
+
+.invoice {
+    /* border: 1px solid black; */
+    padding: 39px 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30vh;
+}
+
+.right {
+    float: right;
+    font-size: small;
+}
+
+.zero {
+    padding: 0;
+}
+.membership-detail {
+    border-bottom: 1px solid black;
+}
+
+.pad-20-btm {
+    padding-bottom: 20px;
+}
+.light {color: rgb(111, 113, 115);
+}
+.bold {
+    font-weight: bold;
+}
+
+.payment-details {
+    background-color: rgb(247, 246, 244);
+}
