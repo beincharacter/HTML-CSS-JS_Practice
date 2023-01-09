@@ -1,0 +1,145 @@
+img {
+    height: 70vh;
+    width: 50vh;
+    /* background-size: cover; */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid black; */
+    /* background-color: bisque; */
+}
+
+.main-container {
+    display: -webkit-inline-box;
+}
+
+.notification {
+    width: 110%;
+}
+
+.navbar {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 250px;
+    margin-right: 10px;
+    /* background-color: rgb(230, 212, 212); */
+    /* background-color: rgb(204, 178, 178); */
+    border-right: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.pad-16 {
+    padding: 10px;
+}
+
+/* .below {
+    padding-top: 75px;
+} */
+
+.right {
+    float: right;
+    font-weight: 900;
+}
+
+.work-dashbord {
+    padding-top: 10px;
+    width: 78vw;
+    /* background-color: brown; */
+}
+.customer {
+    padding-right: 57vw;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.top-area {
+    padding: 10px;
+}
+
+.import {
+    padding-right: 15px;
+}
+
+.navbar-work span:first-child {
+    padding-left: 10px;
+}
+
+.navbar-work span {
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+}
+
+
+.below {
+    width: 250px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+
+.img, .namedata {
+    display: inline-block;
+}
+
+.on-nav {
+    border-radius: 8px 100px/120px;
+}
+.onthis {
+    padding: 8px;
+    border-radius: 8px 100px/120px;
+}
+
+.on-nav:hover {
+    background-color: rgb(204, 178, 178);
+    border-radius: 8px 100px/120px;
+}
+
+.onthis:hover {
+    cursor: pointer;
+    background-color: rgb(209, 233, 241);
+    border-radius: 8px 100px/120px;
+}
+h6 {
+    display: initial;
+    float: right;
+}
+
+.red {
+    color: red;
+}
+
+.statics-box {
+    display: inline-block;
+    /* padding: 20px; */
+    margin: 30px;
+    border-radius: 8px;
+    background-color: rgb(209, 233, 241);
+    width: calc((100vw - 40vw)/3);
+}
+
+.light-heading {
+    color: rgb(117, 117, 109);
+    font-size: small;
+}
+
+.render-area {
+    background-color: aquamarine;
+    overflow-y: scroll;
+    height: 550px;
+
+    
+}
+
+.render-area::-webkit-scrollbar {
+    display: none;
+  }
