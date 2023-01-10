@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.working-dash {
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    background-color: rgb(47, 45, 45);
+    width: 30%;
+}
+
+.heading-main {
+    font-size: 2.6em;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pounds {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.grams, .kilograms, .ounces {
+    margin-top: 10px;
+    padding: 6px;
+}
+
+.grams {
+    background-color: rgb(2,117,216);
+}
+
+.kilograms {
+    background-color: rgb(92,184,92);
+}
+
+.ounces {
+    background-color: rgb(217,83,79);
+}
+
+.heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.grams-val, .kilograms-val, .ounces-val {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(36, 34, 34);
+}

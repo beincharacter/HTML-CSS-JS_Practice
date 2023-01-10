@@ -1,0 +1,31 @@
+.main-div {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid rgb(153, 137, 137);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.para {
+    margin-bottom: 20px;
+}
+
+.toggle {
+    padding: 12px 20px;
+    color: rgb(91, 138, 209);
+    border: 1px solid rgb(91, 138, 209);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle:hover {
+    background-color: rgb(91, 138, 209);
+    color: aliceblue;
+}
+
+
