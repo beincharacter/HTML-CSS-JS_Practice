@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(48,87,110,1) 25%,
+     rgba(255, 255, 255, 1) 50%, rgba(48,87,110,1) 100%);
+    height: 100vh;
+}
+
+/* * {
+    outline: 1px solid black;
+} */
+
+.mainbody {
+    height: 80vh;
+    width: 25vw;
+    background-color: rgb(48,87,110);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.temp-reading {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.temp-buttons {
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.temp-body-circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+
+.btn {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    border: 3px solid white;
+}
+
+.increase-btn {
+    background-color: rgb(167,167,167);
+}
+.decrease-btn {
+    background-color: rgb(94,94,94);
+}

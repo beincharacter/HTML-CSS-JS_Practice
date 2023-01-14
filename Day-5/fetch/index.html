@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filter Example</title>
+  </head>
+  <body>
+    <form>
+      <label>Enter name:</label>
+      <input type="text" id="nameInput" />
+      <br />
+      <label>Filter by:</label>
+      <select id="filterSelect">
+        <option value="name">Name</option>
+        <option value="gender">Gender</option>
+        <option value="region">Region</option>
+      </select>
+      <br />
+      <button type="button" onclick="filter()">Filter</button>
+    </form>
+    <br />
+    <div id="result"></div>
+
+    <script>
+        // Fetch data from json file
+        fetch('https://raw.githubusercontent.com/thm/uinames/master/uinames.com/api/names.json')
+          .then(response => response.json())
+          .then(data => {
+              const namesList = data;
+              window.filter = () => {
+                // Get the input and filter value
+                const nameInput = document.getElementById("nameInput").value;
+                const filterValue = document.getElementById("filterSelect").value;
+                //Filter the data
+                const filteredData = namesList.filter(item => {
+                  return item[filterValue].toLowerCase().includes(nameInput.toLowerCase());
+                });
+                //Show the result
+                const resultEl = document.getElementById("result");
+                resultEl.innerHTML = filteredData
+                  .map(item => {
+                    return `<p>${item.name} (${item.gender}, ${item.region})</p>`;
+                  })
+                  .join("");
+              };
+          });
+      </script>
+  
+  </body>
+</html>
